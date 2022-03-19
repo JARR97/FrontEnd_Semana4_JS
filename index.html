@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Launchx</title>
+    <link rel="stylesheet" href="./pokecss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+                
+</head>
+<body class="fondoCompleto">
+    <header>
+        <h3 class="h1poke"> P o k é d e x  &nbsp;&nbsp; L a u n c h X</h3>        
+    </header>
+    <br><br><br><br>
+    <div class="col-lg-3 " ></div>
+    <div class="col-lg-7 pokedexfondo">
+        <div class="col-lg-5 rectangulo">
+            <br>
+            <div class="circulo col-lg-3" ></div>
+            <div class="circuloRojo col-lg-2"></div>
+            <div class="circuloAmarillo col-lg-2"></div>
+            <div class="circuloVerde col-lg-2"></div>
+            <br><br><br>
+            <div class="rectanguloVerde" style="align-items: center;"><h6 style="font-size: 0%;"><br></h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./img/pokeball2.png" width="50%" id="pokeImg" alt=""><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="background-color:blanchedalmond ;" type="text" placeholder="Pokemon/ID" id="PokeName" size="12%" name="PokeName"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="button" onclick="fetchPokemon()">Buscar Pokémon</button>
+                
+                <h5 class="h5">Nombre: <input size="12%"type="text" id="pokeName1" value="" disabled ></h5>
+                <h5 class="h5">I D: <input size="2%" type="text" id="pokeid" value="" disabled ></h5>
+            </div>
+            
+        </div>
+        <div class="col-xs-1 rectanguloMedio"></div>
+        <div class="col-lg-5 rectangulo">
+            <div style="align-items: center;">
+                <h3>Estadisticas</h3>
+                <h5>Altura: <input type="text" id="pokeheight" value="" disabled ></h5>
+                <h5>Peso: &nbsp;<input type="text" id="pokeweight" value="" disabled ></h5>
+                <h5>Salud: <input type="text" id="pokestatst0" value="" disabled ></h5>
+                <h5>Ataque: <input size="19%" type="text" id="pokestatst1" value="" disabled ></h5>
+                <h5>Defensa: <input size="18%" type="text" id="pokestatst2" value="" disabled ></h5>
+                <h5>Ataque&nbsp;Especial: <input size="10%" type="text" id="pokestatst3" value="" disabled ></h5>
+                <h5>Defensa&nbsp;Especial: <input size="9%" type="text" id="pokestatst4" value="" disabled ></h5>
+                <h5>Velocidad: <input size="17%" type="text" id="pokestatst5" value="" disabled ></h5>
+                <h3>Movimientos</h3>
+
+                <h5><input size="13%" type="text" id="pokesmoves1" value="" disabled >&nbsp;<input size="13%" type="text" id="pokesmoves2" value="" disabled ></h5>
+                <h5><input size="13%" type="text" id="pokesmoves3" value="" disabled >&nbsp;<input size="13%" type="text" id="pokesmoves4" value="" disabled ></h5>
+
+            </div>            
+            
+        </div>
+    </div>
+    <div class="col-lg-3 " ></div>
+    <br> <br> <br> <br> <br> <br> <br> <br>s
+    <br>
+    
+    <!--con oneclick se llama a la funcion en scrip-->
+</body>
+<footer>
+    <script src="./poketlaunchx.js"></script>
+</footer>
+</html><br>
